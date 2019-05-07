@@ -19,7 +19,7 @@ class MessageEndpointTest {
     @Test
     void get() {
         String actual = restTemplate.getForObject(url, String.class);
-        String expected = "I am living the dream!";
+        String expected = "I am living the Dream!";
         assertEquals(expected, actual);
     }
 }
