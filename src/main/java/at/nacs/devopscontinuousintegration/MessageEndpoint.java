@@ -10,7 +10,7 @@ public class MessageEndpoint {
 
     @GetMapping
     public String get() {
-        return "I am living the dream!";
+        return "What a beautiful life!";
     }
 
 }
